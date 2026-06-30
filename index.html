@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Супер Кликер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Кликай и Богатей!</h1>
+        <div class="score-container">
+            <p>Баланс: <span id="score">0</span> 💰</p>
+            <p>Пассивный доход: <span id="pps">0</span> /сек</p>
+        </div>
+
+        <button id="click-btn" class="main-button">КЛИК!</button>
+
+        <div class="shop">
+            <h2>Магазин улучшений</h2>
+            <button id="buy-clicker" class="shop-btn">
+                +1 к клику (Цена: <span id="clicker-cost">10</span> 💰)
+            </button>
+            <button id="buy-miner" class="shop-btn">
+                Автокликер +1/сек (Цена: <span id="miner-cost">50</span> 💰)
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
