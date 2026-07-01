@@ -4,14 +4,14 @@
 <meta charset=utf-8>
 <meta name=viewport 
 content=`width=device-width,initial-scale=1`>
-<title>GD Mega Edition</title>
+<title>GD Premium</title>
 <link rel=stylesheet href=style.css>
 </head>
 <body>
 
 <div id=gameContainer>
 
-  <!-- Меню смерти и прогресса -->
+  <!-- Меню смерти -->
   <div id=M1 class=m>
     <h2 id=W_TXT>БАБАХ!</h2>
     <p id=MODE_TXT>Режим: КУБИК</p>
@@ -25,16 +25,16 @@ content=`width=device-width,initial-scale=1`>
       ВОЗРОДИТЬСЯ (1 🔑)
     </button>
     <button class=d onclick=openDonateMenu()>
-      VIP-ПАК: 100 КЛЮЧЕЙ + БЕЗ РЕКЛАМЫ (150р)
+      VIP-ПАК: 100 КЛЮЧЕЙ (150р)
     </button>
   </div>
 
-  <!-- Меню доната за 100р -->
+  <!-- Меню доната -->
   <div id=M2 class=m>
     <h2>ДОНАТ-ЦЕНТР</h2>
-    <p>100 Ключей + Отключение рекламы = 150 Рублей</p>
-    <button class=d onclick=paySystem(1)>
-      Карта МИР / СБП
+    <p>100 Ключей = 150 Рублей</p>
+    <button class=d onclick=paySystem(3)>
+      DonationAlerts
     </button>
     <button onclick=paySystem(2) 
             style=background:#229ed9>
@@ -46,7 +46,7 @@ content=`width=device-width,initial-scale=1`>
     </button>
   </div>
 
-  <canvas id=G></canvas>
+  <canvas id=canvasID></canvas>
 </div>
 
 <script src=game.js></script>
