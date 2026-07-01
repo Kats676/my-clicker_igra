@@ -649,7 +649,7 @@ window.open(
 )
 if (type == 3) 
 window.open(
-`https://donationalerts.com`, 
+`https://www.donationalerts.com/r/katsigra`, 
 `_blank`
 )
 if (type == 2) 
